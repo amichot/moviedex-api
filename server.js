@@ -5,7 +5,7 @@ const helmet = require("helmet");
 const cors = require("cors");
 require("dotenv").config();
 //data
-const MOVIEDEX = require("./moviedex.json");
+const MOVIEDEX = require("./movies-data-small.json");
 
 const app = express();
 
